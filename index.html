@@ -2,12 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css"
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <form>
+    <h1>Login</h1>
+    <label for="Email">Email</label>
+    <input type="text" id="Email" name="Eamail">
     
-</body>
-</html>
+    <label for="Password">Password</label>
+    <input type="password" id="Password" name="Password">
+    
+    <label for="Genero">Genero</label>
+    <select name="Genero" id="Genero">
+        <option value="Masculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+        <option value="Otro">Otro</option>
+    </select>
+    
+    <div>
+        <input type="checkbox" name="Terminos" id="Terminos">
+        <label for="Terminos">Acepto los terminos</label>
+    
+    </div>
+    <div class="button-container">
+        <button>Ingresar</button>
+    
+    </div>
+    
+    </form>
+    
+    </body>
+    </html>

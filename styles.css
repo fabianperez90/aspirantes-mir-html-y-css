@@ -1,0 +1,32 @@
+form {
+    margin: 0 auto;
+
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    background: linear-gradient(#bd09b7,#6b4cf5);
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border-radius: 20px;
+
+    color: white;
+
+    gap: 5px;
+
+    font-family: Arial;
+}
+
+input, select {
+    padding: 7px;
+}
+
+button {
+    padding: 5px 15px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
